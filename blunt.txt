@@ -2315,6 +2315,8 @@ Achievements.Get({
     Reason = "Beat Rebound",
     Image = "https://github.com/Brololto/pbs-furrys/blob/main/pbs_kids_digital_art___floofy_and_furry_me_by_arkaceofficialredux_deeb2b4-350t.png?raw=true",
 })
+wait(1)
+break
 end
 
 entity.Debug.OnEntityStartMoving = function(entityModel)
